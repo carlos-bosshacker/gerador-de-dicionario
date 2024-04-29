@@ -36,9 +36,6 @@ if __name__ == "__main__":
     # Por padrão, o ataque será WPA2
     modo_ataque = "WPA2"
 
-    # Solicita ao usuário que forneça opções para o aircrack-ng
-    opcoes = input("Digite as opções para o aircrack-ng: ").split()
-
     # Solicita ao usuário que forneça o BSSID da rede alvo
     bssid = input("Digite o BSSID da rede alvo: ")
 
